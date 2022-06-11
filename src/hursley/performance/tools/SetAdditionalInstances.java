@@ -177,7 +177,7 @@ public class SetAdditionalInstances {
         } finally {
           b.disconnect();
         } 
-        System.out.println("");
+        //System.out.println("");
         System.out.println("Flows changed    =" + messageFlowsChanges);
         System.out.println("Flows not changed=" + messageFlowsNotChanged);
         System.out.println("Completed");
